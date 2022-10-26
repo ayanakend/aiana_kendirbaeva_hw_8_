@@ -16,7 +16,7 @@ public class RPG_Game {
         Magic magic = new Magic(280, 20, "Strange(Magic)");
         Berserk berserk = new Berserk(270, 15, "Ragnar (Berserk)");
         Medic assistant = new Medic(265, 5, 5, "Vasya");
-        Thor thor=new Thor(200,10,"Thor");
+        Thor thor=new Thor(230,17,"Thor");
         Hero[] heroes = {warrior, doc, magic, berserk, assistant,thor};
 
         printStatistics(boss, heroes);
